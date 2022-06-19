@@ -70,6 +70,39 @@ body{
     background-color: rgb(0 ,3, 27, .4);
 }
 
+/* main */
+
+main{
+    margin: 50px  auto;
+    width: 1200px;
+}
+
+main h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us-box{
+    position: relative;
+    height: 300px;
+    margin: 40px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px 0;
+}
+
+.top{
+    background-image: url('../img/kawa.jpg');
+}
+.middle{
+    background-image: url('../img/smartphone-3d.jpg');
+}
+.bottom{
+    background-image: url('../img/księgowy.jpg');
+}
+
 /* footer */
 footer{
     height: 80px;
